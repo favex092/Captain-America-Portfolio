@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Arvo&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Moonrocks&display=swap');
+*{
+    background-repeat: no-repeat;
+    background-size: cover;
+   padding: 0;
+   font-family: 'Arvo', serif;
+}
+
+body{
+  background-image: url(https://sportshub.cbsistatic.com/i/2022/06/14/dad4fed0-7b2d-4600-912f-f5843a981d27/sentinel-of-liberty.jpg)
+}
+ .profile-img{
+  width: 35%;
+  height: 10%;
+  padding: 0%;
+  margin: auto;
+} 
+
+
+header ul li a {
+    text-decoration: none;
+    color: white;
+    cursor: pointer;
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 10%;
+    background-color: #333;
+}
+.logo a{
+    font-family: 'Rubik Moonrocks', cursive;
+    font-size: 25px;
+    text-decoration: none;
+    cursor: pointer;
+    color: white;
+}
+.nav-list {
+  list-style-type: none;
+}
+.nav-list li {
+    transition: all 0.3s ease 0s;
+    display: inline-block;
+    padding: 5px 20px;
+}
+.nav-list li:hover {
+    transition: all 0.3s ease 0s;
+    background-color: #adabab81;
+}
+.content {
+    margin: 0px 40px;
+}
+.content h1 {
+    font-family: 'Rubik Moonrocks', cursive;
+    margin: 40px 0px;
+    font-weight: bold;
+    font-size: 30px;
+    text-align: center;
+}
+.content p {
+    display: inline;
+    font-size: 18px;
+    text-align: justify;
+}
+.information {
+    display: flex;
+    align-items: center;  
+}
+
+@media screen and (max-width: 1360px){
+    .information {
+        flex-direction: column;
+    }
+}
+.profile-img {
+    width: 100%;
+    max-width: 750px;
+    object-fit: cover;
+    padding: 0px 15px 0px 0px;
+    margin-bottom: 10px;    
+}
+footer {
+    margin-top: 40px;
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
